@@ -69,6 +69,7 @@ var coffeeSources = ['scripts/hello.coffee'],
       gulp.watch('scripts/hello.coffee', ['coffee']);
       gulp.watch('scripts/*.js', ['js']);
       gulp.watch('styles/main.scss', ['sass']);
+      //gulp.watch('styles/main.scss', ['sass']);
       gulp.watch(htmlSources, ['html']);
     });
 
