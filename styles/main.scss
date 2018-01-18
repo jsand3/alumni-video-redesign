@@ -1,13 +1,55 @@
-$primary-color: #A37;
-$color: #f5f5f5;
-
 #title {
-	  color: $primary-color;
-}
+  color: #A37; }
+.vid-contain-box .vid-text, .vid-contain-box span {
+  color: #ffffff; }
 
 h1 {
-	text-align: center;
- }
-h2, h3 {
-	color: $color;
-}
+  text-align: center; }
+.vid-contain-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1400px; }
+  .vid-contain-box .vid-box {
+    flex: 0 0 calc(33.33% - 30px);
+    margin: 5px;
+    padding: 32px 23px 16px; }
+  .vid-contain-box .vid-details {
+    display: flex;
+    flex-direction: column; }
+  .vid-contain-box span {
+    font-size: 12.8em; }
+
+h2, h3, h4 {
+  color: #f5f5f5; }
+button {
+  border: 0;
+  background: 0 0; }
+
+.vid-box-1 {
+  background: url(http://www.oru.edu/new/image/thumb-7.jpg) center center;
+  background-size: cover; }
+
+.vid-box-2 {
+  background: url(http://www.oru.edu/new/image/thumb-7.jpg) center center;
+  background-size: cover; }
+
+.vid-box-3 {
+  background: url(http://www.oru.edu/new/image/thumb-7.jpg) center center;
+  background-size: cover; }
+
+.vid-box-4 {
+  background: url(http://www.oru.edu/new/image/thumb-7.jpg) center center;
+  background-size: cover; }
+
+.vid-box-5 {
+  background: url(http://www.oru.edu/new/image/thumb-7.jpg) center center;
+  background-size: cover; }
+
+.vid-box-6 {
+  background: url(http://www.oru.edu/new/image/thumb-7.jpg) center center;
+  background-size: cover; }
+
+.vid-box-7 {
+  background: url(http://www.oru.edu/new/image/thumb-7.jpg) center center;
+  background-size: cover; }
